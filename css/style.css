@@ -243,7 +243,7 @@ body,
 /* article 3 style */
 .text-highlight {
   padding: 0 5px;
-  background: url(/img/marker_line.svg) no-repeat 50% 120%;
+  background: url(../img/marker_line.svg) no-repeat 50% 120%;
   background-size: 100%;
 }
 /* article 4 style */
