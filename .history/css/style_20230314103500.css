@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* typo setting */
+html,
+body,
+.wrapper {
+  font-family: "Pretendard", sans-serif !important;
+  font-size: 10px;
+}
+.wrapper .GGothic {
+  font-family: "HGSoftGGothicssi", sans-serif !important;
+}
+/*1rem: 10px*/
+.size-10 {
+  font-size: 10px !important;
+}
+
+.size-12 {
+  font-size: 12px !important;
+}
+
+.size-18 {
+  font-size: 18px !important;
+}
+
+/*  */
+.full-img-box {
+  width: 100%;
+}
+.full-img-box img {
+  width: 100%;
+}

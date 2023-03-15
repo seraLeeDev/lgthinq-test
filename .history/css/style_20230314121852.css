@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* typo style */
+html,
+body,
+.wrapper {
+  font-family: "Pretendard", sans-serif !important;
+  font-size: 10px; /*1rem: 10px*/
+}
+.wrapper .GGothic {
+  font-family: "HGSoftGGothicssi", sans-serif !important;
+}
+
+.font-semiBold {
+  font-weight: 600 !important;
+}
+
+.font-bold {
+  font-weight: 800 !important;
+}
+
+.font-extraBold {
+  font-weight: 900 !important;
+}
+
+.h2 {
+  font-size: 7rem !important;
+  margin-bottom: 12px;
+}
+
+.section-desc {
+  font-size: 2rem;
+  color: #6a6a6a;
+}
+
+.section-caption {
+  font-size: 13px;
+}
+
+/* common style */
+.blue-02 {
+  color: #304ffb !important;
+}
+
+.full-img-box {
+  width: 100%;
+}
+.full-img-box img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.index {
+  margin-bottom: 15px;
+}
+
+/* article 1 style */
+.main-notice {
+  width: 100%;
+  padding: 10px 0;
+  background: #0e1222;
+}
+
+.main-notice p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+}
+/* article 2 style */
+/* article 3 style */
+/* article 4 style */
+/* article 5 style */
