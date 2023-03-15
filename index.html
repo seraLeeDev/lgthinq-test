@@ -88,7 +88,7 @@
   <body>
     <div class="wrapper">
       <!-- 메인 -->
-      <article class="article-box">
+      <article>
         <div class="box-img-full">
           <img src="img/[LG ThinQ] main img.gif" alt="내려드림,할인드림" />
         </div>
@@ -97,7 +97,61 @@
         </div>
       </article>
       <!-- ThinQ & 빼기 설명 -->
-      <article></article>
+      <article class="bg-blue01">
+        <section class="section-wrap">
+          <div class="sec2-head text-white">
+            <img src="img/thinQ-logo.svg" alt="thinQ 로고" class="thinq-logo" />
+            X
+            <img
+              src="img/bbegi_inilne_logo.svg"
+              alt="thinQ 로고"
+              class="bbegi-logo-inline"
+            />
+          </div>
+          <div class="sec2-body-img">
+            <img
+              src="img/thinQ_icon.svg"
+              alt="thinQ 아이콘"
+              class="thinq-icon"
+            />
+            <img
+              src="img/bbegi_icon.svg"
+              alt="빼기 아이콘"
+              class="bbegi-icon"
+            />
+          </div>
+          <div class="box-content sec2-body-text text-white">
+            슬기로운 가전 생활 앱 LG ThinQ와<br />
+            새롭게 버리는 공식 빼기가 만났습니다!
+          </div>
+          <div class="sec2-foot-content">
+            <div class="sec2-foot-bg">
+              <div class="sec2-foot-text">
+                <div class="sec2-foot-text-head">
+                  <img
+                    src="img/thinQ-logo.svg"
+                    alt="thinQ 로고"
+                    class="thinq-logo"
+                  />
+                  <p class="text-white">사용자에게만!</p>
+                </div>
+                <p class="GGothic text-white sec2-foot-title font-bold">
+                  내려드림 <br />5% 할인 혜택
+                </p>
+                <small class="text-blue-coupon"
+                  >* 내려드림 라이트·플러스 서비스 한정 혜택</small
+                >
+              </div>
+              <div class="sec2-foot-coupon box-img-half">
+                <img src="img/illust_coupon.svg" alt="5% 쿠폰 이미지" />
+              </div>
+            </div>
+            <div class="sec2-foot-btn">
+              <button>빼기 바로가기</button>
+            </div>
+          </div>
+        </section>
+      </article>
       <!-- 내려드림 소개 -->
       <article>
         <!-- 01. 내려드림 서비스란? -->
@@ -197,10 +251,10 @@
                 src="img/cancel_impossible_100_filled_gray.svg"
                 alt="주의 아이콘"
               />
-              <small class="text-indigo text-caution"
-                >이벤트 페이지를 통하지 않으면 할인 혜택을 받기 어려워요.<br />
-                꼭! 이벤트 페이지를 통해 빼기 앱을 설치해주세요.</small
-              >
+              <p class="text-indigo text-caution">
+                이벤트 페이지를 통하지 않으면 할인 혜택을 받기 어려워요.<br />
+                꼭! 이벤트 페이지를 통해 빼기 앱을 설치해주세요.
+              </p>
             </div>
             <div class="box-content">
               <span class="box-chip GGothic text-white bg-lightblue Gotham"
@@ -317,8 +371,12 @@
                 </i>
               </div>
               <p class="text-answer font-normal">
-                이벤트 페이지 내 버튼을 통하여 빼기 앱 설치 후 광명 푸르지오
-                센트베르 거주자에 한하여 할인 혜택이 적용됩니다.
+                <span>
+                  이벤트 페이지 내 [빼기 바로가기] 버튼을 통해 빼기 앱을
+                  설치·실행한
+                  <b>광명 푸르지오 센트베르 거주자에 한하여</b> 내려드림
+                  라이트·플러스 서비스 할인 혜택이 적용됩니다.</span
+                >
               </p>
             </li>
             <li>
@@ -363,9 +421,9 @@
         </footer>
       </article>
       <!-- 플로팅 버튼 -->
-      <!-- <div class="box-float">
+      <div class="box-float">
         <button class="btn-float font-bold">빼기 바로가기</button>
-      </div> -->
+      </div>
     </div>
   </body>
 </html>
