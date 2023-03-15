@@ -9,7 +9,7 @@
   font-family: "HGSoftGGothicssi";
   font-style: normal;
   font-weight: 100;
-  src: url(..../font/HGSoftGGothicssi-00g.woff2) format("woff2"),
+  src: url(../font/HGSoftGGothicssi-00g.woff2) format("woff2"),
     url(../font/HGSoftGGothicssi-00g.woff) format("woff"),
     url(../font/HGSoftGGothicssi-00g.otf) format("opentype");
 }
