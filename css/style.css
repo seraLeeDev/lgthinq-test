@@ -144,9 +144,6 @@ body,
 .relative {
   position: relative !important;
 }
-.width-80 {
-  width: 80%;
-}
 .box-lottie {
   position: absolute;
   width: 150px;
@@ -272,7 +269,6 @@ body,
 .img-card-list li:last-child {
   margin: 0;
 }
-.img-card-list img,
 .img-card-list object {
   width: 100%;
 }
@@ -313,7 +309,7 @@ body,
   left: 15%;
   width: 150px;
 }
-.box-img-bubble img {
+.box-img-bubble object {
   width: 100%;
 }
 .box-img-full.sec1 {
@@ -453,7 +449,7 @@ body,
   font-size: 1.8rem;
   margin-bottom: 10px;
 }
-.footer-logo img {
+.footer-logo object {
   width: 100px;
 }
 /* 
