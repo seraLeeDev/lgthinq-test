@@ -29,3 +29,24 @@ const toggleFaq = () => {
   toggleWrap.classList.toggle("open");
   answerBox.classList.toggle("hidden");
 };
+
+//빼기 앱 바로가기 링크
+const bbegiLink = {
+  stg: "https://bbegi.page.link/NiEpLmXxsvwb8NX87",
+  prod: "https://bbegi.page.link/J7QE2qwQfyCpytDs7",
+};
+
+//내려드림 배너 링크
+const bannerLink = {
+  stg: "https://bbegi.page.link/agETCUvmVqckxPEf7",
+  prod: "https://bbegi.page.link/66dwHKnKsjcsLKJN9",
+};
+
+//빼기 FAQ 링크
+const faqLink =
+  "https://gatdahome.notion.site/FAQ-77135bc9814940fd8cad62ce1faf0e9c#b536a3d8f3e54a468b37ddd0a35136e8";
+
+//링크 이동 함수
+const routeUrl = (url) => {
+  window.location.href = url;
+};

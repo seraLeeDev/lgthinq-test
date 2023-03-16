@@ -54,9 +54,9 @@
   font-family: "HGSoftGGothicssi";
   font-style: normal;
   font-weight: 900;
-  src: url(../font/HGSoftGGothicssi-90g.woff2) format("woff2"),
-    url(../font/HGSoftGGothicssi-90g.woff) format("woff"),
-    url(../font/HGSoftGGothicssi-90g.otf) format("opentype");
+  src: url(../font/HGSoftGGothicssi-99g.woff2) format("woff2"),
+    url(../font/HGSoftGGothicssi-99g.woff) format("woff"),
+    url(../font/HGSoftGGothicssi-99g.otf) format("opentype");
 }
 
 @font-face {
