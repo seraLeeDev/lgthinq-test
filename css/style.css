@@ -263,18 +263,17 @@ body,
   bottom: -10px;
 }
 .img-card-list {
-  width: 100%;
+  padding: 0 24px;
   margin: 40px 0 100px;
 }
 .img-card-list li {
-  width: 100%;
-  padding: 0 20px;
   margin-bottom: 20px;
 }
 .img-card-list li:last-child {
   margin: 0;
 }
-.img-card-list li img {
+.img-card-list img,
+.img-card-list object {
   width: 100%;
 }
 .main-notice {
@@ -496,7 +495,7 @@ body,
   font-size: 1.2rem;
   line-height: 28px;
   border-radius: 50px;
-  background: #6f6f6f;
+  background: #a6a6a6;
   color: #262626;
 }
 .box-float .btn {
