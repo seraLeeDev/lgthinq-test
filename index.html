@@ -154,7 +154,9 @@
               </div>
             </div>
             <div class="sec2-foot-btn letter-03" data-aos="fade-up">
-              <button class="btn">빼기 바로가기</button>
+              <button class="btn" onclick="routeUrl(bbegiLink.stg)">
+                빼기 바로가기
+              </button>
             </div>
           </div>
         </section>
@@ -214,9 +216,9 @@
           </ul>
         </section>
         <!-- 03. 가격 설명 -->
-        <section class="bg-receipt section-wrap">
-          <div class="box-content relative">
-            <div class="box-lottie" style="top: -40%; right: -10px">
+        <section class="bg-receipt section-wrap relative">
+          <div class="box-content">
+            <div class="box-lottie coin01">
               <lottie-player
                 src="img/coin01.json"
                 background="transparent"
@@ -225,7 +227,7 @@
                 autoplay
               ></lottie-player>
             </div>
-            <div class="box-lottie" style="top: 70%; left: -50px">
+            <div class="box-lottie coin02">
               <lottie-player
                 src="img/coin02.json"
                 background="transparent"
@@ -234,7 +236,7 @@
                 autoplay
               ></lottie-player>
             </div>
-            <div class="box-lottie" style="top: 270%; right: -60px">
+            <div class="box-lottie coin03">
               <lottie-player
                 src="img/coin03.json"
                 background="transparent"
@@ -243,7 +245,7 @@
                 autoplay
               ></lottie-player>
             </div>
-            <div class="box-lottie" style="top: 430%; right: -60px">
+            <div class="box-lottie coin04">
               <lottie-player
                 src="img/coin04.json"
                 background="transparent"
@@ -252,7 +254,7 @@
                 autoplay
               ></lottie-player>
             </div>
-            <div class="box-lottie" style="top: 450%; left: -70px">
+            <div class="box-lottie coin05">
               <lottie-player
                 src="img/coin05.json"
                 background="transparent"
@@ -324,7 +326,7 @@
                 data-aos="fade-up"
                 >STEP 01
               </span>
-              <div class="box-img" style="width: 80%" data-aos="fade-up">
+              <div class="box-img width-80" data-aos="fade-up">
                 <img src="img/apply_step1.svg" alt="내려드림 선택 이미지" />
               </div>
               <p class="text-white section-desc sec4" data-aos="fade-up">
@@ -339,7 +341,11 @@
               >
                 STEP 02
               </span>
-              <div class="box-img-full" data-aos="fade-up">
+              <div
+                class="box-img"
+                data-aos="fade-up"
+                style="width: 85%; margin-left: 50px"
+              >
                 <img src="img/apply_step2.svg" alt="배출장소 선택 이미지" />
               </div>
               <p class="text-white section-desc sec4" data-aos="fade-up">
@@ -521,14 +527,24 @@
                 <p class="text-answer font-normal">
                   빼기 FAQ 페이지에서 더 많은 질문을 확인할 수 있습니다.
                 </p>
-                <a class="btn-faq-link">다른 질문 확인하기</a>
+
+                <a
+                  class="btn-faq-link font-semiBold letter-05"
+                  href="javascript:routeUrl(faqLink)"
+                >
+                  다른 질문 확인하기
+                </a>
               </div>
             </li>
           </ul>
         </section>
         <footer>
           <div class="box-img-full">
-            <img src="img/banner.svg" alt="내려드림 이동 배너" />
+            <img
+              src="img/banner.svg"
+              alt="내려드림 이동 배너"
+              onclick="routeUrl(bannerLink.stg)"
+            />
           </div>
           <div class="footer-logo">
             <p class="text-white">새롭게 버리는 공식</p>
@@ -539,7 +555,9 @@
       <!-- 플로팅 버튼 -->
       <div class="box-fixed">
         <div class="box-content box-float">
-          <button class="btn font-bold">빼기 바로가기</button>
+          <button class="btn font-bold" onclick="routeUrl(bbegiLink.stg)">
+            빼기 바로가기
+          </button>
         </div>
       </div>
     </div>
