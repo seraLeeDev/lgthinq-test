@@ -499,3 +499,8 @@ body,
   background: #1331d9;
   color: #fff;
 }
+.btn-banner {
+  display: block;
+  width: 100%;
+  border: none;
+}

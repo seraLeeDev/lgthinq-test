@@ -82,7 +82,6 @@
       sizes="16x16"
       href="icons/favicon-16x16.png"
     />
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
@@ -159,10 +158,20 @@
                 <object data="img/illust_coupon.svg" width="100%"></object>
               </div>
             </div>
-            <div class="sec2-foot-btn letter-03" data-aos="fade-up">
+            <div
+              class="sec2-foot-btn letter-03"
+              data-aos="fade-up"
+              style="display: flex; flex-direction: column"
+            >
+              <!-- <button class="btn" onclick="routeUrl(bbegiLink.dev)">
+                빼기 바로가기(dev)
+              </button> -->
               <button class="btn" onclick="routeUrl(bbegiLink.stg)">
-                빼기 바로가기
+                빼기 바로가기(stage)
               </button>
+              <!-- <button class="btn" onclick="routeUrl(bbegiLink.prod)">
+                빼기 바로가기
+              </button> -->
             </div>
           </div>
         </section>
@@ -543,9 +552,23 @@
           </ul>
         </section>
         <footer>
-          <div class="box-img-full" onclick="routeUrl(bannerLink.stg)">
-            <object data="mg/banner.svg" width="100%"></object>
+          <!-- <span style="color: white">dev</span> -->
+          <!-- <div class="box-img-full">
+            <a href="javascript:routeUrl(bannerLink.dev)" class="btn-banner">
+              <img src="img/banner.svg" alt="내려드림 바로가기 배너" />
+            </a>
+          </div> -->
+          <span style="color: white">stage</span>
+          <div class="box-img-full">
+            <a href="javascript:routeUrl(bannerLink.stg)">
+              <img src="img/banner.svg" alt="내려드림 바로가기 배너" />
+            </a>
           </div>
+          <!-- <div class="box-img-full">
+            <a href="javascript:routeUrl(bannerLink.prod)">
+              <img src="img/banner.svg" alt="내려드림 바로가기 배너" />
+            </a>
+          </div> -->
           <div class="footer-logo">
             <p class="text-white">새롭게 버리는 공식</p>
             <object data="img/bbegi_app_logo.svg" width="100%"></object>
@@ -555,14 +578,19 @@
       <!-- 플로팅 버튼 -->
       <div class="box-fixed">
         <div class="box-content box-float">
+          <!-- <button class="btn font-bold" onclick="routeUrl(bbegiLink.dev)">
+            빼기 바로가기(dev)
+          </button> -->
           <button class="btn font-bold" onclick="routeUrl(bbegiLink.stg)">
-            빼기 바로가기
+            빼기 바로가기(stage)
           </button>
+          <!-- <button class="btn font-bold" onclick="routeUrl(bbegiLink.prod)">
+            빼기 바로가기
+          </button> -->
         </div>
       </div>
     </div>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/aosSetting.js"></script>
   </body>
 </html>
