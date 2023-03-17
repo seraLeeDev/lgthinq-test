@@ -53,7 +53,7 @@ body,
   margin-bottom: 12px;
   text-align: center;
   font-size: 7rem !important;
-  line-height: 38px;
+  line-height: 44px;
   color: #111;
   font-weight: 800;
   letter-spacing: -0.2px;
@@ -189,7 +189,6 @@ body,
   padding: 0 20px;
   text-align: center;
 }
-
 .box-caution {
   display: flex;
   flex-direction: column;
@@ -212,7 +211,9 @@ body,
   color: white;
   text-align: center;
 }
-
+.box-chip.korean {
+  font-size: 3.8rem;
+}
 .box-fixed {
   position: fixed;
   bottom: 40px;
@@ -381,7 +382,7 @@ body,
   margin-bottom: 10px;
   font-size: 8rem;
   text-align: center;
-  line-height: 44px;
+  line-height: 48px;
 }
 .sec2-foot-coupon {
   margin: 40px auto;
@@ -448,7 +449,7 @@ body,
 }
 .footer-logo p {
   font-size: 1.8rem;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .footer-logo object {
   width: 100px;
