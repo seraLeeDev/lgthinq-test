@@ -335,6 +335,7 @@ body,
   justify-content: center;
   align-items: center;
   padding: 0 24px;
+  max-height: 320px;
 }
 .thinq-icon,
 .bbegi-icon {
@@ -497,4 +498,9 @@ body,
 .box-float .btn {
   background: #1331d9;
   color: #fff;
+}
+.btn-banner {
+  display: block;
+  width: 100%;
+  border: none;
 }
