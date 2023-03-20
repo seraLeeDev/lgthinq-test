@@ -446,12 +446,12 @@ body,
   justify-content: center;
   align-items: center;
   padding: 70px 0 150px;
+  gap: 8px;
 }
 .footer-logo p {
   font-size: 1.8rem;
-  margin-bottom: 5px;
 }
-.footer-logo object {
+.footer-logo div {
   width: 100px;
 }
 /* 
