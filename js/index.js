@@ -34,14 +34,14 @@ const toggleFaq = () => {
 const bbegiLink = {
   dev: "https://bbegi.page.link/mgvw5t57gNAV97st8",
   stg: "https://bbegi.page.link/NiEpLmXxsvwb8NX87",
-  prod: "https://bbegi.page.link/J7QE2qwQfyCpytDs7",
+  prod: "https://bbegi.page.link/NsMU5nRUmhNhXH5S9",
 };
 
 //내려드림 배너 링크
 const bannerLink = {
   dev: "https://bbegi.page.link/FvSvEXCx78q9FJrQ6",
   stg: "https://bbegi.page.link/agETCUvmVqckxPEf7",
-  prod: "https://bbegi.page.link/66dwHKnKsjcsLKJN9",
+  prod: "https://bbegi.page.link/WWfn6YSVJNpW8JyM6",
 };
 
 //빼기 FAQ 링크
